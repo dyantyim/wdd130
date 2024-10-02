@@ -30,6 +30,7 @@ aside{
     padding: 1rem;
     background-color: aquamarine;
     color:blueviolet;
+    text-align: center;
 }
 aside image {
     width: 200px;
