@@ -1,0 +1,43 @@
+:root {
+    background-color: #6cd4ff;
+    --heading-background-color: #8B80F9;
+    --heading-text-color: #333;
+    --heading-font: 'Montserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h1 {
+    color: rebeccapurple;
+    font-weight: bolder;
+}
+
+h2 {
+    color: rebeccapurple;
+    font-weight: bold;
+}
+
+P {
+    color: white;
+}
+footer {
+    font-style: normal;
+    text-decoration: none;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article img {
+    float: right;
+}
