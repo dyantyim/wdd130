@@ -1,9 +1,55 @@
 :root {
-    background-color: #6cd4ff;
-    --heading-background-color: #8B80F9;
-    --heading-text-color: #333;
-    --heading-font: 'Montserrat', Helvetica, sans-serif;
-    --padding: 1rem;
+    --primary-color: #9A7AA0;
+    --secondary-color: #8D94BA;
+    --accent1-color: #A0CFD3;
+    --accent2-color: #B4EDD2;
+  
+    --white: #f3eded;
+    --black: #0e0c0c;
+  
+    --button-color: #0e711b;
+    --button-color-hover: #30f3a2;
+  
+    --nav-background-color: var(--accent2-color);
+    --nav-link-color: #fff;
+    --nav-hover-link-color: var(--accent2-color);
+    --nav-hover-background-color: #fff;
+  
+    --heading-font: "Roboto", serif;
+    --paragraph-font: "Poppins", serif;
+}
+.container-grid{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.flexbox-container{
+    display: flex;
+    justify-content: space-between;
+    border: 5px #333;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-gap: 30px;
 }
 
 h1 {
@@ -37,4 +83,5 @@ hero img {
 
 article img {
     float: right;
+    width:max-content
 }

@@ -1,0 +1,28 @@
+root {
+  --primary-color: #9A7AA0;
+  --secondary-color: #8D94BA;
+  --accent1-color: #A0CFD3;
+  --accent2-color: #B4EDD2;
+
+  --white: #f3eded;
+  --black: #0e0c0c;
+
+  --button-color: #0e711b;
+  --button-color-hover: #30f3a2;
+
+  --nav-background-color: var(--accent2-color);
+  --nav-link-color: #fff;
+  --nav-hover-link-color: var(--accent2-color);
+  --nav-hover-background-color: #fff;
+
+  --heading-font: "Roboto", serif;
+  --paragraph-font: "Poppins", serif;
+}
+
+/*https://coolors.co/eaeaea-893168-4c2e05-7a8450-6baa75
+
+
+/*Coolors Palette Widget{
+      <script src="https://coolors.co/palette-widget/widget.js"></script>
+      <script data-id="09136845763937909">new CoolorsPaletteWidget("09136845763937909", ["4f3130","753742","aa5042","d8bd8a","d8d78f"]); </script>
+}

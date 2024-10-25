@@ -1,5 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-body{
-    font-family: Merriweather;
-}
+root {
+    --primary-color: #9A7AA0;
+    --secondary-color: #8D94BA;
+    --accent1-color: #A0CFD3;
+    --accent2-color: #B4EDD2;
+  
+    --white: #f3eded;
+    --black: #0e0c0c;
+  
+    --button-color: #0e711b;
+    --button-color-hover: #30f3a2;
+  
+    --nav-background-color: var(--accent2-color);
+    --nav-link-color: #fff;
+    --nav-hover-link-color: var(--accent2-color);
+    --nav-hover-background-color: #fff;
+  
+    --heading-font: "Roboto", serif;
+    --paragraph-font: "Poppins", serif;;
+  }
