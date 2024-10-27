@@ -25,6 +25,37 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.map{
+    border: 0;
+    align-content: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:baseline
+}
+
+.employees{
+    justify-content: space-between;
+    width: 150px;
+    align-items: center;
+    flex-direction: column;
+}
+
+p{
+    font-style: var(--black);
+    background-color: var(--accent2-color);
+}
+
+.contact{
+    background-color: var(--primary-color);
+    height: 100%;
+    width: 100%;
+    display: block;
+
+}
 
 .flexbox-container{
     display: flex;
